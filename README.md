@@ -12,6 +12,11 @@ Made using:
 - axios
 - Styled-components
 
+## NODE & NPM VERSIONS:
+
+Node: v16.4.0
+Npm: 7.18.1
+
 To see LIVE: (LINK WILL BE HERE TOMORROW)
 
 # Getting Started with Create React App
