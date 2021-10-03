@@ -1,4 +1,4 @@
-Recruitment task for HexOcean:
+# Recruitment task for HexOcean:
 
 - create a form using react and redux,
 - validate the form,
@@ -17,7 +17,7 @@ Made using:
 Node: v16.4.0
 Npm: 7.18.1
 
-To see LIVE: (LINK WILL BE HERE TOMORROW)
+## To see LIVE: https://karol-pl.github.io/hexOcean-task/
 
 # Getting Started with Create React App
 
