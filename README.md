@@ -1,3 +1,19 @@
+Recruitment task for HexOcean:
+
+- create a form using react and redux,
+- validate the form,
+- submit the data via POST request
+
+Made using:
+
+- React
+- Redux
+- Redux-thunk
+- axios
+- Styled-components
+
+To see LIVE: (LINK WILL BE HERE TOMORROW)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
