@@ -13,6 +13,7 @@ const RenderField = ({
   step,
   min,
   max,
+  parse,
   meta: { touched, error },
 }) => {
   return (
@@ -26,6 +27,7 @@ const RenderField = ({
           step={step}
           min={min}
           max={max}
+          parse={parse}
         />
         <br />
         {touched && error && <ErrorText>{error}</ErrorText>}

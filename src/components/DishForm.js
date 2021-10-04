@@ -33,6 +33,7 @@ class DishForm extends Component {
             label="number of slices: "
             min="1"
             max="12"
+            parse={parseInt}
           />
 
           <Field
@@ -43,6 +44,7 @@ class DishForm extends Component {
             min="1"
             max="48"
             label="diameter: "
+            parse={parseInt}
           />
         </>
       );
@@ -56,6 +58,7 @@ class DishForm extends Component {
           max="10"
           step="1"
           label="Spiciness (1-10): "
+          parse={parseInt}
         />
       );
     } else if (value === "sandwich") {
@@ -67,6 +70,7 @@ class DishForm extends Component {
           min="1"
           max="10"
           label="Slices: "
+          parse={parseInt}
         />
       );
     } else {
