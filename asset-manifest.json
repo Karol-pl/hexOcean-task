@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/hexOcean-task/static/js/main.6af15329.chunk.js",
-    "main.js.map": "/hexOcean-task/static/js/main.6af15329.chunk.js.map",
+    "main.js": "/hexOcean-task/static/js/main.1065f644.chunk.js",
+    "main.js.map": "/hexOcean-task/static/js/main.1065f644.chunk.js.map",
     "runtime-main.js": "/hexOcean-task/static/js/runtime-main.6b3f6921.js",
     "runtime-main.js.map": "/hexOcean-task/static/js/runtime-main.6b3f6921.js.map",
     "static/js/2.c93592e6.chunk.js": "/hexOcean-task/static/js/2.c93592e6.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.6b3f6921.js",
     "static/js/2.c93592e6.chunk.js",
-    "static/js/main.6af15329.chunk.js"
+    "static/js/main.1065f644.chunk.js"
   ]
 }
