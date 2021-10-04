@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Field, reduxForm } from "redux-form";
+import { Field, reduxForm, reset } from "redux-form";
 import validate from "./validate";
 import RenderField from "./RenderField";
 import RenderDishSelect from "./RenderDishSelect";
@@ -13,6 +13,7 @@ class DishForm extends Component {
   };
   onSubmit = (formValues) => {
     this.props.createOrder(formValues);
+    alert("Your order was submitted correctly");
   };
 
   handleSelectChange = (e) => {
@@ -109,9 +110,12 @@ class DishForm extends Component {
   }
 }
 
+const afterSubmit = (result, dispatch) => dispatch(reset("dishForm"));
+
 const formWrapped = reduxForm({
   form: "dishForm",
   validate,
+  onSubmitSuccess: afterSubmit,
 })(DishForm);
 
 export default connect(null, { createOrder })(formWrapped);
