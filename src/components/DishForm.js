@@ -44,7 +44,7 @@ class DishForm extends Component {
             min="1"
             max="48"
             label="diameter: "
-            parse={parseInt}
+            parse={parseFloat}
           />
         </>
       );
