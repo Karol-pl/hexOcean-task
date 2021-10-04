@@ -11,6 +11,8 @@ const RenderField = ({
   placeholder,
   type,
   step,
+  min,
+  max,
   meta: { touched, error },
 }) => {
   return (
@@ -22,6 +24,8 @@ const RenderField = ({
           placeholder={placeholder}
           type={type}
           step={step}
+          min={min}
+          max={max}
         />
         <br />
         {touched && error && <ErrorText>{error}</ErrorText>}

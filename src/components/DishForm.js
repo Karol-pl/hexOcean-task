@@ -22,7 +22,8 @@ class DishForm extends Component {
   };
 
   renderDishDetails = () => {
-    if (this.state.value === "pizza") {
+    const { value } = this.state;
+    if (value === "pizza") {
       return (
         <>
           <Field
@@ -30,7 +31,7 @@ class DishForm extends Component {
             type="number"
             name="no_of_slices"
             label="number of slices: "
-            min="0"
+            min="1"
             max="12"
           />
 
@@ -39,31 +40,32 @@ class DishForm extends Component {
             type="number"
             name="diameter"
             step="0.1"
-            min="0"
+            min="1"
             max="48"
             label="diameter: "
           />
         </>
       );
-    } else if (this.state.value === "soup") {
+    } else if (value === "soup") {
       return (
         <Field
           component={RenderField}
           type="range"
           name="spiciness_scale"
-          min="0"
+          min="1"
           max="10"
           step="1"
-          label="Spiciness(1-10): "
+          label="Spiciness (1-10): "
         />
       );
-    } else if (this.state.value === "sandwich") {
+    } else if (value === "sandwich") {
       return (
         <Field
           component={RenderField}
           type="number"
           name="bread_slices"
-          min="0"
+          min="1"
+          max="10"
           label="Slices: "
         />
       );
