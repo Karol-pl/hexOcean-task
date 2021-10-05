@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/hexOcean-task/static/js/main.36d9ee5d.chunk.js",
-    "main.js.map": "/hexOcean-task/static/js/main.36d9ee5d.chunk.js.map",
+    "main.js": "/hexOcean-task/static/js/main.0a796b77.chunk.js",
+    "main.js.map": "/hexOcean-task/static/js/main.0a796b77.chunk.js.map",
     "runtime-main.js": "/hexOcean-task/static/js/runtime-main.6b3f6921.js",
     "runtime-main.js.map": "/hexOcean-task/static/js/runtime-main.6b3f6921.js.map",
-    "static/js/2.66f3920b.chunk.js": "/hexOcean-task/static/js/2.66f3920b.chunk.js",
-    "static/js/2.66f3920b.chunk.js.map": "/hexOcean-task/static/js/2.66f3920b.chunk.js.map",
+    "static/js/2.6b685296.chunk.js": "/hexOcean-task/static/js/2.6b685296.chunk.js",
+    "static/js/2.6b685296.chunk.js.map": "/hexOcean-task/static/js/2.6b685296.chunk.js.map",
     "index.html": "/hexOcean-task/index.html",
-    "static/js/2.66f3920b.chunk.js.LICENSE.txt": "/hexOcean-task/static/js/2.66f3920b.chunk.js.LICENSE.txt"
+    "static/js/2.6b685296.chunk.js.LICENSE.txt": "/hexOcean-task/static/js/2.6b685296.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b3f6921.js",
-    "static/js/2.66f3920b.chunk.js",
-    "static/js/main.36d9ee5d.chunk.js"
+    "static/js/2.6b685296.chunk.js",
+    "static/js/main.0a796b77.chunk.js"
   ]
 }
