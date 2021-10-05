@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DishForm from "./DishForm";
+import Utils from "./Utils";
 import { ThemeProvider } from "styled-components";
 import { GlobalStyle, lightTheme, darkTheme } from "../theme/Theme";
 import { ThemeButton, TopBar, Title } from "../style/App.style";
@@ -17,6 +18,7 @@ const App = () => {
           <ThemeButton onClick={toggleTheme}></ThemeButton>
         </TopBar>
         <DishForm />
+        <Utils />
       </>
     </ThemeProvider>
   );
