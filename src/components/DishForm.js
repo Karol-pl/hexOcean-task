@@ -67,7 +67,7 @@ class DishForm extends Component {
         <Field
           component={RenderField}
           type="number"
-          name="bread_slices"
+          name="slices_of_bread"
           min="1"
           max="10"
           label="Slices: "
