@@ -1,6 +1,6 @@
 # Recruitment task for HexOcean:
 
-- create a form using react and redux,
+- create a form using react, redux, and redux-form,
 - validate the form,
 - submit the data via POST request
 
@@ -9,6 +9,7 @@ Made using:
 - React
 - Redux
 - Redux-thunk
+- Redux-form
 - axios
 - Styled-components
 
